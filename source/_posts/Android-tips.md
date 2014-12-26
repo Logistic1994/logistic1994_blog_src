@@ -22,3 +22,14 @@ tags: Tip
 * 获取view的显示大小
 可以在view中注册观察者接口
 或者在onWindowFocusChanged方法中获取
+
+* Application
+{% codeblock lang:java %}
+void onConfigurationChanged(Configuration newConfig)
+/** Called by the system when the device configuration changed while your component is running */
+{% endcodeblock %}
+
+* Activity彻底启动后的回调
+{% codeblock lang:java %}
+protected void onPostCreate(Bundle savedInstanceState)
+{% endcodeblock %}

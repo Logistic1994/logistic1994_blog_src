@@ -1,0 +1,35 @@
+* Loader:
+	- they provide asynchronous loading of data
+	- they monitor the source of their data and deliver new results when the content changes
+	- they automatically reconnect to the last loader's cursor when being recreated after a configuration change. Thus, they don't need to re-query their data.
+
+* Loader API Summary:
+	- LoaderManager: Only one LoaderManager per activity or fragment. One LoaderManager can have multiple loaders.
+	- LoaderManager.LoaderCallbacks
+	- Loader: abstract
+	- AsyncTaskLoader: provides an AsyncTask
+	- CursorLoader
+
+* Using Loaders in an Application
+	* include the following:
+		- An Activity or Fragment
+		- An instance of the LoaderManager
+		- A CursorLoader (or others)to load data backed by a ContentProvider
+		- An implementation for LoaderManager.LoaderCallbacks
+		- A way to display the loader's data, such as CursorAdapter
+		- A data source, such as a ContentProvider
+	* Start a Loader
+		Initialize a Loader within an activity's onCreate() or a fragment's on ActivityCreated()
+		{ codeblock lang:java }
+		// Prepare the loader.  Either re-connect with an existing one,
+		// or start a new one.
+		getLoaderManager().initLoader(0, null, this);
+		{ endcodeblock }
+	* Restart a loader
+		To discard the old data, use restartLoader()
+		{ codeblock lang:java }
+		getLoaderManager().restartLoader(0, null, this);
+		{ endcodeblock }
+	* Using the LoaderManager Callbacks
+	
+
