@@ -28,5 +28,11 @@ The author use $(S\_0, cS\_0, p\_1, p\_2)$ sensitive families and idealized case
 --- 
 2015.9.8 15:57 There is still some problems to be solved. For example, how the author apply SimHash, MinHash, 1-bit MinHash to mnist dataset.  
 
+---
+2015.9.8 17:41 And SimHash is very hard to apply to comparsion of images, for the radio of the similarity of image features is very small, for smaller than documents. 
+
+---
+2015.9.8 20:31 Generally, MinHash and SimHash are created to process NLP. For images, visual words are necessary. How to generate visual words? If we use SIFT descriptors, collect as much SIFT descriptors as possible, then apply K-means so that we can get K centroids, we call that visual words. To a image, 100+ sift descriptors can be got. Compare each descriptor to K visual words and choose the closeset one. So an image(a document) can be shown as several visual words(words).Then we can easily use MinHash and SimHash.
+
 [1]:http://jmlr.csail.mit.edu/proceedings/papers/v33/shrivastava14.pdf "In Defense of MinHash Over SimHash"
 
