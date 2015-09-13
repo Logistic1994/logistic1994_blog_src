@@ -1,7 +1,7 @@
 title: AMA_Geoffrey_Hinton
 date: 2014-11-16 15:07:34
-categories: ML
-tags:
+categories: Machine Learning
+tags: [famous]
 ---
 ### Are we any closer to understanding biological models of computions?
 ...We are probably a long way from understanding how the brain does this...I think that the way we currently use an unstructured layer of artificial neurons to model a cortical area is utterly crazy.
