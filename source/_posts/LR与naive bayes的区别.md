@@ -1,5 +1,5 @@
 title: LR与naive bayes的区别
-date: 2015-09-11 14:20:36'
+date: 2015-09-11 14:20:36
 category: Machine Learning
 tags: [LR, naive bayes, summary]
 ---

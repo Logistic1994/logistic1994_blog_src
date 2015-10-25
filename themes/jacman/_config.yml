@@ -2,6 +2,8 @@
 menu:
   Home: /
   Archives: /archives
+  Categories: /categories
+  Tags: /tags
   About: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
@@ -87,7 +89,7 @@ links:
 
 
 #### Comment
-duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
+duoshuo_shortname: logistic1994 ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
 
 #### Share button
