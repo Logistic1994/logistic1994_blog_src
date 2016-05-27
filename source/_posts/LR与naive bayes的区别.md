@@ -1,8 +1,9 @@
 title: LR与naive bayes的区别
 date: 2015-09-11 14:20:36
 category: Machine Learning
-tags: [LR, naive bayes, summary]
+tags: [Machine Learning, LR]
 ---
+<!-- more -->
 ## 相同点
 1. 都是对特征的线性表达
 $$\sum\_j \theta\_j x\_j$$

@@ -1,6 +1,7 @@
 title: star_in_ml
 date: 2014-10-28 19:16:15
-tags:
+categroy: Machine Learning
+tags: [Machine Learning, 大神]
 ---
 1.杰弗里·辛顿
 ![杰弗里·辛顿](http://logistic1994picbed.qiniudn.com/Geoffrey_Hinton.jpg)

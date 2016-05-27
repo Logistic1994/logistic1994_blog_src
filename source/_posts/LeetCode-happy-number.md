@@ -1,7 +1,7 @@
 title: LeetCode_happy_number
 date: 2015-09-13 13:30:20
-category: LeetCode
-tags: [LeetCode]
+category: C
+tags: [OJ]
 ---
 
 ## Description

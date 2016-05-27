@@ -1,7 +1,7 @@
 title: Haskell-3
 date: 2015-09-26 16:20:14
 category: Haskell
-tags: [Learn, Note]
+tags: [Haskell]
 ---
 # Type Classes and Overload
 ## parametric polymorphism or ad hoc polymorphism or overloading
@@ -11,6 +11,8 @@ x `elem` (y: ys) = x == y || (x `elem` ys)
 ```
 如果要求上面 **elem** 的类型是 **a->[a]->Bool**，那么我们就必须要求 **==** 的类型是 **a->a->Bool**, 但是为什么 **==**的类型会是这样呢？更进一步，如果是两个list进行比较，比较的过程会是什么样子呢？
 We expect **==** to be overloaded to carry on these various tasks.
+
+<!-- more -->
 
 *Type classes* allows us to declare which types are *instances* of which class, and to provide definitions of the overloaded *operations* associated with a class.
 ``` haskell

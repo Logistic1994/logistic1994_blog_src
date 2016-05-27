@@ -1,7 +1,7 @@
 title: My_dream
 date: 2015-02-28 20:25:26
-categories: 我自己
-tags: [我自己, dream]
+categories: 工作计划
+tags: [总结]
 ---
 我好像不喜欢写代码。
 

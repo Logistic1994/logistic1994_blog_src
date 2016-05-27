@@ -1,7 +1,7 @@
 title: Apache之AllowOverride
 date: 2015-03-02 11:11:04
 categories: 零碎知识
-tags: [Apache, AllowOverride]
+tags: [Apache]
 ---
 AllowOverride参数就是指明Apache服务器是否去找.htaccess文件作为配置文件。如果设置为none，那么服务器将直接忽略.htaccess文件，如果设置为all，那么所有在.htaccess中的指令都将被重写。
 

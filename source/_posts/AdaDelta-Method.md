@@ -1,7 +1,7 @@
 title: AdaDelta Method
 date: 2014-10-26 00:10:57
 categories: Machine Learning
-tags: 机器学习
+tags: [Machine Learning, 梯度下降]
 ---
 ####一般来说有这么几种计算参数更新值的方法
 1. Per-Dimension First Order Methods:

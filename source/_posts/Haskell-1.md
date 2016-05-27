@@ -1,7 +1,7 @@
 title: Haskell 1
 date: 2015-09-24 16:53:00
 category: Haskell
-tags: [Learn, Note]
+tags: [Haskell]
 ---
 *From "A Gentle Introduction to Haskell 98"*
  

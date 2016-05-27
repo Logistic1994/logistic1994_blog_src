@@ -1,7 +1,7 @@
 title: python-http包
 date: 2014-11-18 21:26:07
 categories: python
-tags:
+tags: [http包]
 ---
 httplib:(renamed to http.client in Python3)
 	实现了http和https协议

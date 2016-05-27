@@ -1,7 +1,7 @@
 title: Experience of data science
 date: 2015-09-14 23:51:56
 category: Machine Learning
-tags: [Experience, Summary]
+tags: [Machine Learning]
 ---
 > Original post is [关于数据科学，书上不曾提及的三点经验][1].
 

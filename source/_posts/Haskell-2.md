@@ -1,7 +1,7 @@
 title: Haskell-2
 date: 2015-09-25 19:32:14
 category: Haskell
-tags: [Learn, Note]
+tags: [Haskell]
 ---
 # Case Expressions and Pattern Matching
 `As-patterns`
@@ -13,6 +13,8 @@ f s@(x:xs) = x:s -- where s means (x:xs)
 `Wild-cards 通配符`
 `head (x: _) = x`, actually we don't care where _ is, but in fact, we all know _ must a list, for `:` operator has list as its second argument.
 `tail (_: x) = x`
+
+<!-- more -->
 
 ## Pattern-Matching Semantics
 匹配时严格按照由左到右，由上而下的顺序进行

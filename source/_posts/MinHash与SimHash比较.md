@@ -1,6 +1,6 @@
 title: Comparison of MinHash and SimHash
 date: 2015-09-08 11:38:18
-categories: papers
+categories: Image Retrieval
 tags: [MinHash, SimHash, LSH]
 ---
 This paper is [In Defense of MinHash Over SimHash][1].In this paper, the author provide a theoretical answer that 

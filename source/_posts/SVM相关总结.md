@@ -1,7 +1,7 @@
 title: SVM相关总结
 date: 2015-09-11 13:28:37
 category: Machine Learning
-tags: [SVM, summary]
+tags: [Machine Learning, SVM, 总结]
 ---
 # SVM分类的原理
 SVM的主要思想大概有两类:

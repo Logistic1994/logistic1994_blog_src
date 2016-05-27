@@ -1,7 +1,7 @@
 title: Android_tips
 date: 2014-11-08 16:32:35
 categories: Android
-tags: Tip
+tags: [Android, tips]
 ---
 * 回到Home界面
 {% codeblock lang:java 回到Home %}

@@ -1,9 +1,10 @@
 title: Comprehensive Survey of Clustering Algorithms
 date: 2015-09-22 21:01:23
 category: Machine Learning
-tags: [Cluster-analyse, summary]
+tags: [Machine Learning, paper]
 ---
- 
+<!-- more -->
+
 This paper is [A Comprehensive Survey of Clustering Algorithms][1].
 
 ## Classic definition of clusering

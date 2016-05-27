@@ -1,7 +1,7 @@
 title: Android编程的好习惯
 date: 2015-07-12 10:55:05
 categories: Android
-tags: [Android, 习惯]
+tags: [Android]
 ---
 > 引用自知乎:[大家有哪些好的Android习惯](http://www.zhihu.com/question/27227425)
 
