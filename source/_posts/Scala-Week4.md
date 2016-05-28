@@ -122,3 +122,19 @@ trait Function1[-T, +U] {
 }
 ```
 
+## Pattern Matching
+需要解决的问题：
+1. Which subclass was used
+2. What were the arguments of the constructor?
+
+具体语法
+``` scala
+var = xs match {
+  case CONSTRUCTORS(arg1, arg2, ...) => VALUE
+  case VARIABLES => VALUE
+  case _ => 
+  case CONSTANTS => VALUE
+}
+```
+
+可以避免使用cast，防止不安全的情况出现
